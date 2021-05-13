@@ -62,7 +62,7 @@ class  MainWidget ( QWidget ):
         self . setLayout ( grid_layout )
         
     
-    #Getting the input from the user
+    #Main Function
     def plotEqu(self):
         #-----------Getting the Equation string-----------
         equ = self.ui.Equation.text()   #String entered by the user
